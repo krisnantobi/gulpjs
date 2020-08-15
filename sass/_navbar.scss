@@ -1,0 +1,29 @@
+.navbar {
+    min-height: 60px;
+    background: $color_white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000024;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding-right: 3rem;
+    font: Bold 14px/18px Arial;
+    &:hover {
+        color: $color_blue !important;
+    }
+}
+.search-icon{
+    background-color: $color_white;
+    right: 22px;
+    z-index:3;
+    top: 3px;
+    padding-left: 5px;
+}
+.search-input{
+    border-radius: 1px;
+    box-shadow: 0px 1px 3px #1d191929 !important;
+}
+.search-icon img{
+    width: 30px;
+}
+.navbar input {
+    border: none !important;
+}

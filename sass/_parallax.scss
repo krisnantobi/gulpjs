@@ -1,0 +1,48 @@
+// Mobile
+.parallax {
+    background-image: url("https://placekitten.com/200/190") ;
+    background-attachment: fixed;
+    background-position: right 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 380px;
+    margin: 0px 0px 0px 0px;
+  }
+
+// .parallax {
+    // @include media(height, (200px, 300px, 650px));
+// }
+
+// @include media2(576) { 
+//   .parallax {
+//   }
+// }
+// Tablet
+@include media2(768) { 
+  .parallax {
+    background-image: url("https://placekitten.com/200/110") ;
+    height: 460px;
+  }
+}
+
+// desktop
+@include media2(1024) { 
+  .parallax {
+    background-image: url("https://placekitten.com/200/90") ;
+    min-height: 500px;
+  }
+}
+// @include media2(1200) { 
+//   .parallax {
+//     background-image: url("../../images/parallax/desktop.png") ;
+//     min-height: 500px;
+//   }
+// }
+
+// @include media2(1280) { 
+//   .parallax {
+//     background-image: url("https://placekitten.com/220/70") ;
+//     min-height: 500px;
+//   }
+// }
+

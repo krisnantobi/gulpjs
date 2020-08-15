@@ -1,0 +1,27 @@
+.card {
+    background-color: $color_light;
+}
+.card-columns a{
+    &:hover > .card-block h5{
+        color: $color_blue !important;
+    }
+}
+.card-block{
+    margin-top: 10px;
+}
+.card-title {
+    font-size: 30px;
+}
+
+.card-title {
+    @include media(font-size, (14px, 16px, 20px));
+}
+.pricing strike{
+    font-size: 12px !important;
+}
+.card img {
+    max-height: 300px;
+}
+.card p {
+    font-size: 14px;
+}

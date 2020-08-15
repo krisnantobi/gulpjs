@@ -1,0 +1,28 @@
+.btn {
+    color: $color_white !important;
+    border: none;
+    box-shadow: 1px 3px 6px #00000029;
+    padding: 12px 24px 12px 24px;
+    font-size: 12px;
+}
+.btn-info {
+    background: $color_blue !important;
+    &:hover{
+        background: $color_blue_light !important;
+    }
+}
+
+.ecommerce-link {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 180px;
+    height: 60px;
+}
+.sosmet-link {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 50px;
+}
